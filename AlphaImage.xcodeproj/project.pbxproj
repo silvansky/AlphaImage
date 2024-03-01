@@ -14,6 +14,8 @@
 		A398FB642B90C91A0089AEF3 /* AlphaImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398FB632B90C91A0089AEF3 /* AlphaImageTests.swift */; };
 		A398FB6E2B90C91A0089AEF3 /* AlphaImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398FB6D2B90C91A0089AEF3 /* AlphaImageUITests.swift */; };
 		A398FB702B90C91A0089AEF3 /* AlphaImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398FB6F2B90C91A0089AEF3 /* AlphaImageUITestsLaunchTests.swift */; };
+		A398FB7D2B90CE7B0089AEF3 /* NSImage+Pixels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398FB7C2B90CE7B0089AEF3 /* NSImage+Pixels.swift */; };
+		A398FB7F2B90DDEB0089AEF3 /* ProcessedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398FB7E2B90DDEB0089AEF3 /* ProcessedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A398FB692B90C91A0089AEF3 /* AlphaImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A398FB6D2B90C91A0089AEF3 /* AlphaImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaImageUITests.swift; sourceTree = "<group>"; };
 		A398FB6F2B90C91A0089AEF3 /* AlphaImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A398FB7C2B90CE7B0089AEF3 /* NSImage+Pixels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Pixels.swift"; sourceTree = "<group>"; };
+		A398FB7E2B90DDEB0089AEF3 /* ProcessedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				A398FB512B90C9170089AEF3 /* AppDelegate.swift */,
 				A398FB532B90C9170089AEF3 /* ViewController.swift */,
+				A398FB7E2B90DDEB0089AEF3 /* ProcessedImageView.swift */,
+				A398FB7C2B90CE7B0089AEF3 /* NSImage+Pixels.swift */,
 				A398FB552B90C9190089AEF3 /* Assets.xcassets */,
 				A398FB572B90C9190089AEF3 /* Main.storyboard */,
 				A398FB5A2B90C9190089AEF3 /* AlphaImage.entitlements */,
@@ -251,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A398FB7D2B90CE7B0089AEF3 /* NSImage+Pixels.swift in Sources */,
+				A398FB7F2B90DDEB0089AEF3 /* ProcessedImageView.swift in Sources */,
 				A398FB542B90C9170089AEF3 /* ViewController.swift in Sources */,
 				A398FB522B90C9170089AEF3 /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = AlphaImage/AlphaImage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = AlphaImage/AlphaImage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
